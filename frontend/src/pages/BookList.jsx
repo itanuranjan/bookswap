@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axiosInstance from "../api/axiosInstance";
 import toast from "react-hot-toast";
-import notImagefound from "../assets/image_not_available.png";
+import notImagefound from "../assets/Image_not_available.png";
 
 const BookList = ({ userId }) => {
   const [books, setBooks] = useState([]);
