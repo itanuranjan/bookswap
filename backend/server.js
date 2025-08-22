@@ -19,7 +19,7 @@ app.use(cookieParser());
 
 // Configure CORS properly for cookies
 app.use(cors({
-  origin: 'http://localhost:5173', // frontend URL (Vite default)
+  origin: ['http://localhost:5173','https://bookswapmarketplace.netlify.app'], // frontend URL (Vite default)
   credentials: true,
 }));
 
